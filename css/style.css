@@ -1,0 +1,101 @@
+/* 
+ h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    isolation: isolate;
+    position: relative;
+    width: fit-content;
+    
+  }
+  
+   h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+  }
+  
+   h1:hover::before {
+    height: 50%;
+    background-color: rgb(21, 24, 8);
+  
+  }
+
+  #message{
+    
+  }
+
+  #message span{
+    width: 20px;
+    height: 20px;
+  
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    margin: auto;
+    display: inline-block;
+  
+  }
+
+
+
+  
+  #message .span2{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 255, 85);
+    border-radius: 50%;
+    margin: auto;
+    display: inline-block;
+  }
+  
+  #message .span3{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(217, 255, 0);
+    border-radius: 50%;
+    margin: auto;
+    display: inline-block;
+  } */
+
+  /* ////////////{اللهم صلي علي سيدنا محمد وعلي ال سيدنا محمد}///////////// */
+
+  body{
+    background-color: rgb(29, 28, 21);
+
+    border: solid  2px rgb(201, 200, 180);
+    
+  }
+
+
+  #div{
+    background-color: rgb(1, 2, 2);
+    margin-top: 50px;
+    min-height: 150px;
+    width: 80%;
+    margin-left: 150px;
+    position: absolute;
+    height: 80%;
+    border: solid rgba(150, 236, 110, 0.918) 3px;
+    border-radius: 10%;
+
+  }
+  #div h2{
+    padding-top: 200px;
+    color: rgb(46, 32, 12);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .row{
+     background-color:  rgba(121, 148, 108, 0.918);
+  }
+
+  #audio{
+    display: none;
+ }
